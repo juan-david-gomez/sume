@@ -10,7 +10,10 @@
   "homepage": "http://foundation.zurb.com",
   "dependencies": {
     "foundation-sites": "~6.1.0",
-    "motion-ui": "~1.1.0"
+    "motion-ui": "~1.1.0",
+    "page": "visionmedia/page.js#~1.6.4",
+    "requirejs": "~2.1.22",
+    "text": "requirejs/text#~2.0.14"
   },
   "ignore": [
     "**/.*",

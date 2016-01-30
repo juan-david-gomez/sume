@@ -5,14 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Sume</title>
 	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="css/nuestraEmpresa.css">
 </head>
 <body>
 	
 	<div class="top-bar">
 		<div class="top-bar-left">
-			<ul class="menu">
-				<li class="menu-text">SUME S.A.S.</li>
-			</ul>
+			<a href="/home">
+			<ul class="menu"><li class="menu-text">Sume</li></ul>
+			</a>
 		</div>
 		<div class="title-bar hide-for-medium" data-responsive-toggle="menu-movil" data-hide-for="medium">
 		  <button class="menu-icon toggle-menu" type="button" data-toggle="menu-movil"></button>
@@ -20,71 +21,16 @@
 		</div>
 		<div class="top-bar-right menu-movil hide-for-small-only">
 			<ul class="menu vertical medium-horizontal">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Nuestra empresa</a></li>
-				<li><a href="#">Portafolio de Servicios</a></li>
-				<li><a href="#">Productos</a></li>
-				<li><a href="#">Contactenos</a></li>
+				<li><a href="/home">Home</a></li>
+				<li><a href="/nuestra-empresa">Nuestra empresa</a></li>
+				<li><a href="/portafolio-servicios">Portafolio de Servicios</a></li>
+				<li><a href="/productos">Productos</a></li>
+				<li><a href="/contactenos">Contactenos</a></li>
 			</ul>
 		</div>
 	</div>
+	<div id="main-content">
 	
-	<div class="callout large">
-		<div class="row column text-center">
-			<h1>SUME S.A.S.</h1>
-			<p class="lead">Soluciones de Suministro Mantenimiento y Aplicaciones de Energía</p>
-			<a href="#" class="button large">Portafolio de Servicios</a>
-			<a href="#" class="button large hollow">Contactenos</a>
-		</div>
-	</div>
-	<div class="row">
-		<div class="medium-6 columns medium-push-6">
-			<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-use-m-u-i="true" 
-			data-options="
-			animInFromLeft:fade-in; 
-			animInFromRight:fade-in; 
-			animOutToLeft:fade-out; 
-			animOutToRight:fade-out;">
-			  <ul class="orbit-container">
-			    <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-			    <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-			    <li class="is-active orbit-slide">
-			      <div>
-			        <img class="orbit-image" src="http://lorempixel.com/750/350/business/1" alt="Space">
-			     	<figcaption class="orbit-caption">Imagen 1</figcaption>
-			      </div>
-			    </li>
-			    <li class="orbit-slide">
-			      <div>
-			        <img class="orbit-image" src="http://lorempixel.com/750/350/business/2" alt="Space">
-			     	<figcaption class="orbit-caption">Imagen 2</figcaption>
-			      </div>
-			    </li>
-			    <li class="orbit-slide">
-			      <div>
-			        <img class="orbit-image" src="http://lorempixel.com/750/350/business/3" alt="Space">
-			     	<figcaption class="orbit-caption">Imagen 3</figcaption>
-			      </div>
-			    </li>
-			    <li class="orbit-slide">
-			      <div>
-			        <img class="orbit-image" src="http://lorempixel.com/750/350/business/4" alt="Space">
-			     	<figcaption class="orbit-caption">Imagen 4</figcaption>
-			      </div>
-			    </li>
-			  </ul>
-			  <nav class="orbit-bullets">
-			   <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-			   <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-			   <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-			   <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-			 </nav>
-			</div>
-		</div>
-		<div class="medium-6 columns medium-pull-6">
-			<h2>Nuestra Empresa</h2>
-			<p style="text-align:justify">SUME nace con el objeto de suplir la demanda de aplicaciones energéticas innovadoras en el país, a través de desarrollos de ingeniería y de apropiación de tecnologías mediante convenios de cooperación técnica y comercial con empresas nacionales y extranjeras pioneras en el mercado, lo que permite adaptar nuestras soluciones a las necesidades particulares de cada cliente de manera eficiente. Contamos también con la capacidad de entregar a nuestros clientes suministros especiales y soluciones de mantenimiento a la medida de cada una de sus necesidades.</p>
-		</div>
 	</div>
 
 
@@ -95,12 +41,7 @@
 
 
 
+<script data-main="js/app" src="bower_components/requirejs/require.js"></script>	
 
-
-
-
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/foundation-sites/dist/foundation.min.js"></script>
-<script src="js/app.js"></script>
 </body>
 </html>
