@@ -1,2 +1,13 @@
-.menu-movil {
-  transition: all 0.5s ease; }
+.lead {
+  font-size: 155%;
+  line-height: 1.6;
+  font-family: 'Handlee', cursive; }
+
+.top-bar, .top-bar ul {
+  background-color: #0a0a0a; }
+
+.top-bar a, .top-bar ul a {
+  color: #fefefe; }
+
+.logo_index {
+  width: 335px; }

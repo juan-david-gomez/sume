@@ -7,17 +7,17 @@ var sassPaths = [
 ];
 
 gulp.task('sass', function() {
-  gulp.src('scss/custom.scss')
-    .pipe($.sass({
-      includePaths: sassPaths
-    })
-      .on('error', $.sass.logError))
-    .pipe($.autoprefixer({
-      browsers: ['last 2 versions', 'ie >= 9']
-    }))
-    .pipe(gulp.dest('css'));
+  // gulp.src('scss/custom.scss')
+  //   .pipe($.sass({
+  //     includePaths: sassPaths
+  //   })
+  //     .on('error', $.sass.logError))
+  //   .pipe($.autoprefixer({
+  //     browsers: ['last 2 versions', 'ie >= 9']
+  //   }))
+  //   .pipe(gulp.dest('css'));
 
-  return gulp.src('scss/app.scss')
+  return gulp.src('scss/*.scss')
     .pipe($.sass({
       includePaths: sassPaths
     })
