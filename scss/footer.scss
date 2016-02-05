@@ -1,0 +1,56 @@
+@import '_settings.scss';
+
+
+.full-width {
+  max-width: 1400px;
+}
+
+$text-color: #fff;
+
+// footer CSS
+
+.footer {
+  background-color: $black;
+  padding: 1rem 4rem;
+  text-align: center;
+  color: $text-color;
+  i {
+    font-size: 3em;
+  }
+  @include breakpoint(small only) {
+		padding: 1rem;
+   }
+}
+
+.footer {
+  h4 {
+    color: $text-color;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  p, a {
+    font-weight: 300; 
+    font-size: .8em;
+    color: $text-color;
+  }
+}
+
+@include breakpoint(medium) {
+.footer {
+  .columns:nth-child(2) {
+    border-left: 1px solid scale-color($text-color, $lightness: -30%);
+  }
+ }
+}
+
+.footer-links {
+  list-style-type: none;
+  li {
+    margin-top: .5em;
+  }
+}
+
+
+
