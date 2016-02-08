@@ -23,7 +23,7 @@ require.config({
 requirejs(['jquery','foundation','page',
 	'text!paginas/home.html',
 	'text!paginas/nuestraEmpresa.html',
-	'text!paginas/extraContent.html',
+	'text!paginas/portafolioServicios.html',
 	'text!paginas/extraContent.html',
 	'text!paginas/extraContent.html',
 	],function($,foundation,page,
@@ -73,8 +73,10 @@ function nuestraEmpresa(){
 	$("#main-content").html(nuestraEmpresaPage);
 }
 function portafolioServicios(){
-	// $("#main-content").html(portafolioServiciosPage);
-	console.log("portafolioServicios");
+	$("#main-content").html(portafolioServiciosPage);
+	$(document).foundation();
+	// var elem = new Foundation.Orbit($(".orbit"));
+	// console.log("portafolioServicios");
 }
 function productos(){
 	// $("#main-content").html(productosPage);

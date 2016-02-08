@@ -1,0 +1,8 @@
+
+@import '_settings.scss';
+
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+    background: $black;
+    color: $white;
+}

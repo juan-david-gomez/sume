@@ -11,11 +11,12 @@ $text-color: #fff;
 
 .footer {
   background-color: $black;
-  padding: 1rem 4rem;
+  padding: 0.5em 2rem;
   text-align: center;
   color: $text-color;
   i {
     font-size: 3em;
+    margin-left:1em;
   }
   @include breakpoint(small only) {
 		padding: 1rem;
@@ -35,12 +36,16 @@ $text-color: #fff;
     font-size: .8em;
     color: $text-color;
   }
+  p{
+     margin-bottom: 0rem;
+     margin-top: 0.5rem;
+  }
 }
 
 @include breakpoint(medium) {
 .footer {
   .columns:nth-child(2) {
-    border-left: 1px solid scale-color($text-color, $lightness: -30%);
+   // border-left: 1px solid scale-color($text-color, $lightness: -30%);
   }
  }
 }
