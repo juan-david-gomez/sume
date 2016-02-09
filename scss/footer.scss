@@ -42,11 +42,17 @@ $text-color: #fff;
   }
 }
 
+
 @include breakpoint(medium) {
 .footer {
   .columns:nth-child(2) {
    // border-left: 1px solid scale-color($text-color, $lightness: -30%);
   }
+ }
+}
+@include breakpoint(large) {
+.footer {
+    margin-top: -73px;
  }
 }
 

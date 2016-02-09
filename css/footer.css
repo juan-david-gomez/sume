@@ -29,6 +29,10 @@
   margin-bottom: 0rem;
   margin-top: 0.5rem; }
 
+@media screen and (min-width: 64em) {
+  .footer {
+    margin-top: -73px; } }
+
 .footer-links {
   list-style-type: none; }
   .footer-links li {
