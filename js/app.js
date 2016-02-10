@@ -24,7 +24,7 @@ requirejs(['jquery','foundation','page',
 	'text!paginas/home.html',
 	'text!paginas/nuestraEmpresa.html',
 	'text!paginas/portafolioServicios.html',
-	'text!paginas/extraContent.html',
+	'text!paginas/productos.html',
 	'text!paginas/extraContent.html',
 	],function($,foundation,page,
 		homePage,
@@ -79,8 +79,8 @@ function portafolioServicios(){
 	// console.log("portafolioServicios");
 }
 function productos(){
-	// $("#main-content").html(productosPage);
-	console.log("productos");
+	$("#main-content").html(productosPage);
+	$(document).foundation();
 }
 function contactenos(){
 	// $("#main-content").html(contactenosPage);

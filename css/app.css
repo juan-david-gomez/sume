@@ -3006,7 +3006,7 @@ table.hover tr:nth-of-type(even):hover {
   background-color: #ececec; }
 
 .tabs {
-  margin: 0;
+  margin: 1rem;
   list-style-type: none;
   background: #fefefe;
   border: 1px solid #e6e6e6; }
