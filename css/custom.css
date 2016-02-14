@@ -13,5 +13,14 @@
 .logo_index {
   width: 200px; }
 
+.primary-color {
+  background-color: #ED670E; }
+
+.white {
+  background-color: #fefefe; }
+
+.text-white {
+  color: #fefefe; }
+
 #wrap-contente {
   min-height: 100vh; }

@@ -25,7 +25,7 @@ requirejs(['jquery','foundation','page',
 	'text!paginas/nuestraEmpresa.html',
 	'text!paginas/portafolioServicios.html',
 	'text!paginas/productos.html',
-	'text!paginas/extraContent.html',
+	'text!paginas/contacto.html',
 	],function($,foundation,page,
 		homePage,
 		nuestraEmpresaPage,
@@ -67,23 +67,28 @@ page('*', notfound);
 function home(){
 	$("#main-content").html(homePage);
 	var elem = new Foundation.Orbit($(".orbit"));
+	// $("#wrap-contente").addClass("primary-color");
 	// console.log(home);
 }
 function nuestraEmpresa(){
 	$("#main-content").html(nuestraEmpresaPage);
+	// $("#wrap-contente").removeClass("primary-color");
 }
 function portafolioServicios(){
 	$("#main-content").html(portafolioServiciosPage);
+	// $("#wrap-contente").removeClass("primary-color");
 	$(document).foundation();
 	// var elem = new Foundation.Orbit($(".orbit"));
 	// console.log("portafolioServicios");
 }
 function productos(){
 	$("#main-content").html(productosPage);
+	// $("#wrap-contente").removeClass("primary-color");
 	$(document).foundation();
 }
 function contactenos(){
 	// $("#main-content").html(contactenosPage);
+	// $("#wrap-contente").removeClass("primary-color");
 	console.log("contactenos");
 }
 function notfound(ctx,next){

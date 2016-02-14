@@ -18,7 +18,7 @@
   /*.card-content h4 {
     color: $primary-color; 
   }*/
- .card-content p {
+ .card-content p, .card-content li {
     color: #757D75; 
   }
  .card-content a i {
@@ -34,7 +34,7 @@
     width: 3rem;
     border-radius: 50%;
     margin-top: -2rem;
-    margin-left: 3em;
+    margin-left: 4em;
   }
 
 }

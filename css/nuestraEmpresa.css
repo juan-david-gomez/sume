@@ -10,7 +10,7 @@
     margin: 1.25rem; }
   .article-card .card-content .post-author {
     text-align: center; }
-  .article-card .card-content p {
+  .article-card .card-content p, .article-card .card-content li {
     color: #757D75; }
   .article-card .card-content a i {
     font-weight: 300;
@@ -24,4 +24,4 @@
     width: 3rem;
     border-radius: 50%;
     margin-top: -2rem;
-    margin-left: 3em; }
+    margin-left: 4em; }
