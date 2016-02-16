@@ -1,0 +1,6 @@
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+  background: #0a0a0a;
+  color: #fefefe; }
+
+.tabs-content.vertical {
+  margin: 1em; }

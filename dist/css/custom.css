@@ -1,0 +1,26 @@
+.lead {
+  font-size: 155%;
+  line-height: 1.6;
+  font-family: 'Handlee', cursive;
+  font-weight: bold; }
+
+.top-bar, .top-bar ul {
+  background-color: #0a0a0a; }
+
+.top-bar a, .top-bar ul a {
+  color: #fefefe; }
+
+.logo_index {
+  width: 200px; }
+
+.primary-color {
+  background-color: #ED670E; }
+
+.white {
+  background-color: #fefefe; }
+
+.text-white {
+  color: #fefefe; }
+
+#wrap-contente {
+  min-height: 100vh; }
